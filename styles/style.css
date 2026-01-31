@@ -1,13 +1,25 @@
 header{
     background-color: #150300;
-    padding: 5px 50px;
+    padding: 15px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: sans-serif;
 }
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px 0;
+}
+p{
+    color: grey;
+    font-family: sans-serif;
+    text-align:center ;
+    font-size: 30px;
+}
 .T a{
-color: white;
+    color: white;
 }
 .nav ul{
     list-style: none;
@@ -26,23 +38,45 @@ color: white;
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .OurStory{
     display: flex;
-    margin: 40px;
-    gap: 40px;
+    margin: 60px auto;
+    padding: 0 20px;
+    gap: 100px;
     max-width: 1200px;
     align-items: center;
+    text-align: center;
 }
-.text, .Image{
+.text{
+    flex: 1;
+    text-align: center;
+}
+.Image{
     flex: 1;
 }
+.Image img{
+    width: 100%;
+    border-top: 50px;
+    display: block;
+}
 .D{
-    font-family: georgia, serif;
+    font-family: "Caveat", cursive;
+    font-size: 50px;
     color: #e0b465;
 }
+.A{
+    display: inline-block;
+    margin-top: 30px;
+    color: #e0b465;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
 @media (max-width: 768px) {
-    .story-section-container {
+    .OurStory {
         flex-direction: column;
+        text-align: center;
 }
 }
