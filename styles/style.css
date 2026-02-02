@@ -10,13 +10,14 @@ h1{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 50px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 p{
     color: grey;
     font-family: sans-serif;
     text-align:center ;
     font-size: 30px;
+    margin: 5px 0px;
 }
 .T a{
     color: white;
@@ -42,7 +43,7 @@ body{
 }
 .OurStory{
     display: flex;
-    margin: 60px auto;
+    margin: 130px auto;
     padding: 0 20px;
     gap: 100px;
     max-width: 1200px;
@@ -65,6 +66,7 @@ body{
     font-family: "Caveat", cursive;
     font-size: 50px;
     color: #e0b465;
+    margin-bottom: 0;
 }
 .A{
     display: inline-block;
